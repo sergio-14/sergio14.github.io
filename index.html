@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CONTROL SIMULACION</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mod. y Sim.</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">DATOS DE CASA</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">CONSUMO</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURIOSIDADES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">RESPALDOS</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/img4.jpg" alt="">
+            </div>
+            <h1>Sergio Sabino</h1>
+            <h2>Estudiante Ingenieria sistemas - Experto FRONTEND</h2>
+            <div class="redes">
+                <br>
+                <h3>MODELACION Y SIMULACION DE SISTEMAS</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>TRABAJO DE INVESTIGACION</h2>
+            <p><span>Sobre el alto consumo de energia</span> Reclamo que es debatido por la poblacion trinitaria y 
+                el servidor de energia <span>ENDE DEL BENI</span> por lo siguiente hacemos seguimiento de el consumo que tenemos en nuestras casas dia a dia por 22 dias
+                <span>apuntando fecha y hora</span> y tambien tomando en cuenta que implementos de consumo electrico tenemos 
+                para un mejor seguimiento.</p>
+                <br>
+                <p>Este trabajo se realza con el fin de entender el consumo y consientisacion de uso de energia que tomamos 
+
+                </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos de Electrodomensticos en Uso</h3>
+                    <ul>
+                        <li>
+                            <strong>FRIGOBAR.</strong>  
+                           Energía por hora (S75-110 Wh) y al mes (33 kWh-50 kWh)
+                        </li>
+                        <li>
+                            <strong>TELEVISOR</strong>
+                            Energia por hora (80-100 wh) y al mes (16 kWh-18KWh)
+                        </li>
+                        <li>
+                            <strong>CARGADOR DE COMPONENTES.</strong>
+                            Energia por hora (1.2-1.3 wh) y al mes (36-38 wh)
+                        </li>
+                        <li>
+                            <strong>LABADORA</strong>
+                            Energia por hora (400-450wh) y al mes (20-30kwh) 
+                        </li>
+                        <li>
+                            <strong>VENTILADOR</strong>
+                            Energia por hora (13-15wh) y al mes (12-13kwh)
+                        </li>
+                        <li>
+                            <strong>LUMINARIA</strong>
+                            Energia por hora (3-4wh) y al mes (3.5kwh)
+                        </li>
+                        <li>
+                            <strong>LAPTOP</strong>
+                            Energia por hora (80-120wh) y al mes (16-17k)
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Vista de Electrodomesticos por Genero</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-wallet"></i>
+                            <span>Lavadora</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-computer"></i>
+                            <span>Computer</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Televisor</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-network-wired"></i>
+                            <span>Luminaria</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-print"></i>
+                            <span>Aire Acond.</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-calendar"></i>
+                            <span>cargadores</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="doc/MODELACION Y SIMULACION DE SISTEMAS.pdf" class="btn" download="Practica Simulacion.pdf">DESCARGAR DOC.</a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <section id="inicio" class="inicio1">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/estadistica.JPG" alt="">
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>PROGRESO DE CONSUMO ENERGETICO</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>MES DE MAYO</h3>
+                    <div class="skill">
+                        <span>27 DE MAYO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>31%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>28 DE MAYO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>33%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>29 DE MAYO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>30 DE MAYO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>36%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>31 DE MAYO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>38%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>01 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>43%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>02 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>47%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>03 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>MES DE JUNIO</h3>
+                    <div class="skill">
+                        <span>04 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>53%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>05 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>06 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>58%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>07 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>61%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>08 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>63%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>09 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>10 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>11 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>71%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>12 DE JUNIO 2023</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>73%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>CURIOSIDADES SOBRE EL TRABAJO</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>ANECDOTA</h3>
+                    <div class="item izq">
+                        <h4>Vitacora del tiempo..</h4>
+                        <span class="casa">2 de junio 2023</span>
+                        <span class="fecha">9:00 AM - 9:30 AM</span>
+                        <p>por estar mirando el medidor el camion de basura 
+                            se fue sin llevar mi basura:V
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Vitacora del tiempo..</h4>
+                        <span class="casa">5 de junio 2023</span>
+                        <span class="fecha">9:50AM - 10:30AM</span>
+                        <p>Casi me olvido hacer la revision del medidor 
+                            tuve que volver de la u
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>ANECDOTA</h3>
+                    <div class="item der">
+                        <h4>Vitacora del tiempo..</h4>
+                        <span class="casa">10 de junio 2023</span>
+                        <span class="fecha">9:00AM - 9:30AM</span>
+                        <p>hace mucho frio :V pensando si salir a ver el medidor</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Vitacora del tiempo..</h4>
+                        <span class="casa">11 de junio 2023</span>
+                        <span class="fecha">9:00 AM - 9:30 AM</span>
+                        <p>joder sigue haciendo un frio de fruta m##..>:V</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>ENDE EN TRINIDAD</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/fot1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/opfondo.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/fot3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
